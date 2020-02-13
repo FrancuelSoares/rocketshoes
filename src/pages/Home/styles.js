@@ -13,11 +13,11 @@ export const ProductList = styled.ul`
     background: #fff;
     border-radius: 4px;
     padding: 20px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
 
     img {
       align-self: center;
       width: 100%;
-      max-width: 250px;
       border: solid 1px #eee;
     }
 
@@ -25,7 +25,7 @@ export const ProductList = styled.ul`
       font-size: 16px;
       line-height: 20px;
       color: #333;
-      margin-top: 5px;
+      margin-top: 10px;
     }
 
     > span {
